@@ -1,17 +1,24 @@
+var thuLaiToanCuc = 1;
 
- 
+
 function dangNhap(){
     var useName = document.getElementById("useName").value;
     var passWord = document.getElementById("passWord").value;
     var passwordDung = "123456";
-    var thuLai = 1;
     
-    do{
-        if(passWord == passwordDung) {
-            alert("bạn đã đăng nhập thành công");
+    if(passWord == passwordDung) {
+        alert("bạn đã đăng nhập thành công");
+        window.location= "trangchu.html";
+    } else {
+        if (thuLaiToanCuc <= 3) {
+            thuLaiToanCuc++;
         } else {
-            alert("bạn đặng nhập lại");
+            // an nut dang nhap
+            console.log("an nut dang nhap");
+            ////
+            var dangNhap  = document.getElementById("dangNhap");
+            dangNhap.style.display="none";
         }
-        thuLai = thuLai + 1;
-    } while(thuLai < 3);   
+        alert("bạn đặng nhập lại");
+    }
 }
