@@ -1,0 +1,25 @@
+JAVASCRIPT
+
+- getElementById(): lấy thẻ theo id
+
+Các thuộc tính mà js có thể tác động vào:
+    + .innerHTML
+    + .style.color, style.fontSize, style.backgroundColor, ....
+    + .src
+
+- <script></script>: chua code javascript (js)
+
+- event: su kien khi user thao tac len the HTML
+    + onclick
+    + onmouseover
+    + onmousemove
+    + onkeyup
+    + ....
+- function: dong goi quy trinh xu ly
+    + function tenHam() {
+        // cac buoc xu ly code trong day
+    }
+
+- Chu y vi tri dat code js
+
+- alert(), console.log()

@@ -1,0 +1,89 @@
+/* .blood{
+    width: 226px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(167, 100, 100);
+    position: relative;
+} */
+/* .blood::after{
+    content: "\A";
+    width: 70%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    border-radius: 10px 0px 0px 10px;
+    top: 0px;
+    left: 0px;
+} */
+
+.wH{
+    width: 50px;
+    height: 10px;
+}
+.padding{
+    padding:10px;
+}
+#nhanVat1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+#nhanVat1 img{
+    width: 50%;
+    height: 60%;
+    padding: 50px;
+    position: relative;
+}
+#nhanVat2 {
+    content: "\A";
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top:0px;
+    right: 200px;
+}
+#nhanVat2 img {
+    width: 50%;
+    height: 60%;
+    padding: 50px;
+}
+#mau1{
+    width: 226px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(189, 12, 12);
+    position: absolute;
+    top: 17px;
+    right: 61px;
+}
+
+#mau1::after {
+    content: '\A';
+    top: var(--x, 0);
+    right: 0;
+    width: var(--mauMatDi1, 0%);
+    height: 100%;
+    background-color: white;
+    position: absolute;
+}
+#mau2 {
+    width: 226px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(189, 12, 12);
+    position: absolute;
+    top: 17px;
+    right: 61px;
+}
+
+#mau2::after {
+    content: '\A';
+    top: 0;
+    right: 0;
+    width: var(--mauMatDi2, 0%);
+    height: 100%;
+    background-color: white;
+    position: absolute;
+}

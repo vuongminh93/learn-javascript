@@ -1,0 +1,82 @@
+#chienBinh{
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+    position: relative;
+}
+#chienBinh img{
+    width: 50%;
+    height: 60%;
+    position: relative;
+    padding: 50px;
+}
+#fullBlood1{
+    width: 250px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    content: "\A";
+    top: 10px;
+       
+}
+#fullBlood1::after{
+    content: "\A";
+    width: var(--bloodIsLostSwand, 0%);
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#damage1{
+    
+    height: 20px;
+}
+
+#phepThuat {
+    width: 300px;
+    height: 300px;
+    border: 2px solid green;
+    position: absolute;
+    right: 156px;
+    top: 0px;
+}
+
+#phepThuat img {
+    width: 40%;
+    height: 60%;
+    position: relative;
+    padding: 50px;
+}
+
+#fullBlood2 {
+    width: 250px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    content: "\A";
+    top: 10px;
+
+}
+#fullBlood2::after {
+    content: "\A";
+    width: var(--bloodIsLostMagic, 0%);
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#damage2 {
+    
+    height: 20px;
+}
+#random{
+    margin-top: 10px;
+    margin-left: 415px;
+}
