@@ -5,22 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="index11.js"></script>
+    <link rel="stylesheet" href="style11.css" />
   </head>
   <body>
-    <form action="dangNhap">
-      <label for="useName">Usename</label>
-      <input id="useName" type="text" /> <br />
-      <br />
-      <label for="password">password</label>
-      <input id="password" type="password" />
-      <input
-        onclick="dangNhap()"
-        id="dangNhap"
-        type="submit"
-        name="submit"
-        value="Đăng nhập"
-      />
-    </form>
+    <div id="product1" class="border">
+      <img src="img11/hinh2.ipg.jpg" alt="" />
+      <p id="price1"><a href="#"> 2.500.000/1m</a></p>
+      <button onclick="buy4()" id="buy1">mua</button>
+    </div>
+    <div id="product2" class="border">
+      <img src="img11/hinh3.ipg.jpg" alt="" />
+      <p id="price2"><a href="#"> 3.000.000/1m</a></p>
+      <button onclick="buy4()" id="buy2">mua</button>
+    </div>
+    <div id="product3" class="border">
+      <img src="img11/hinh5.ipg.jpg" alt="" />
+      <p id="price3"><a href="#"> 3.500.000/1m</a></p>
+      <button onclick="buy4()" id="buy3">mua</button>
+    </div>
+    <div id="product4" class="border">
+      <img src="img11/hinh6.ipg.jpg" alt="" />
+      <p id="price4"><a href="#"> 4.500.000/1m</a></p>
+      <button onclick="buy4()" id="buy4">mua</button>
+    </div>
+    <button onclick="total()" id="total"></button>
   </body>
 </html>
