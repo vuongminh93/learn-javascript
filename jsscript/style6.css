@@ -1,0 +1,19 @@
+#playOut{
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+}
+#scenery{
+    width: 100%;
+    height: 100%;
+}
+#scenery img{
+    position: relative;
+}
+#soldier img{
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    content: "\A";
+    top: 371px;
+}
