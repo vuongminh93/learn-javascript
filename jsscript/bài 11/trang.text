@@ -1,0 +1,6 @@
+1. lấy img sản phẩm, tên sản phẩm, lấy price, lấy total.(1,2,3,4)
+cho vào trang mới bỏ vào nem, price, total.
+khi click vào button mua của sản phẩm nào thì nó sẽ hiện (name; price; img) vào (name; price; img) của trang mới.
+2.  khi ta nhấn onclick của tatol trang đầu thì nó sẽ làm toán tổng của sản phẩm mà use khi bấm vào sản phẩm đó.
+ 
+

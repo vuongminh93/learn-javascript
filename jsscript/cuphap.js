@@ -1,5 +1,10 @@
 for(var i=1; i <= 10; i++ ){
     console.log(i);
+    ///
+    //
+    ///
+    //
+    
 }
 
 var i=0;
@@ -59,4 +64,21 @@ switch(i){
     default:
         //
         break;
+}
+
+
+
+var pTags = document.getElementsByTagName("p");
+
+for (let index = 0; index < pTags.length; index++) {
+    const element = pTags[index];
+
+    // if (the p la ten san pham) { // the p la ten san pham -> ?
+    //     gan su kien A // gan su kien A ? gan bao nhieeu suj klien ? gan su kien gui ?
+
+    // } else {
+    //     gan su kien B
+    // }
+    // neu la product name thi gan sk A. Nguoc lai, gan su kien B
+    
 }
